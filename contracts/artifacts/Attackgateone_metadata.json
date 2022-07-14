@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.6.2+commit.bacdbe57"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "key",
+				"outputs": [
+					{
+						"internalType": "bytes8",
+						"name": "",
+						"type": "bytes8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Attackgateone.sol": "Attackgateone"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Attackgateone.sol": {
+			"keccak256": "0x8d5fbea8c1281eb24340c73c9d3e1d7d9733e7e4bb9c88c27d627140c583c889",
+			"urls": [
+				"bzz-raw://3ec33742499ec517e52f67214164ba866e4f58fd3f7fc9a57024a762fefc5c5e",
+				"dweb:/ipfs/QmYt9y7VqqLnDNBWD4HZ4TxrcCWDoaLU13WvBZTgUyNs9d"
+			]
+		},
+		"contracts/GatekeeperOne.sol": {
+			"keccak256": "0x71eb8b1abad483e4e67c300d1b02d07dc4d9a79b3f79f7a22e28d71e4454b558",
+			"urls": [
+				"bzz-raw://752980da0d3a5a7874f71819defe92be0f01deb16a7ca13d446ba1b16533d156",
+				"dweb:/ipfs/QmZvUQC1H9AMqMVB35d1SjxmbPeqcae3YPJ6xV1kCPwWjU"
+			]
+		},
+		"github/NomicFoundation/hardhat/packages/hardhat-core/console.sol": {
+			"keccak256": "0x72b6a1d297cd3b033d7c2e4a7e7864934bb767db6453623f1c3082c6534547f4",
+			"urls": [
+				"bzz-raw://a8cb8681076e765c214e0d51cac989325f6b98e315eaae06ee0cbd5a9f084763",
+				"dweb:/ipfs/QmNWGHi4zmjxQTYN3NMGnJd49jBT5dE4bxTdWEaDuJrC6N"
+			]
+		},
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/math/SafeMath.sol": {
+			"keccak256": "0xcc78a17dd88fa5a2edc60c8489e2f405c0913b377216a5b26b35656b2d0dab52",
+			"urls": [
+				"bzz-raw://526dc85e1f9b9b45830e202568d267d93dde7a4fcccf4ad7798dadcd92304d3c",
+				"dweb:/ipfs/QmaoXMB972J3cSDLtBq3xBo4jLwqD2uzXTwujtSPqkYVhR"
+			]
+		}
+	},
+	"version": 1
+}

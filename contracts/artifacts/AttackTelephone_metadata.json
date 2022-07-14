@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Telephone",
+						"name": "add",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "own",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "c",
+				"outputs": [
+					{
+						"internalType": "contract Telephone",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "change",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "o",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AttackTelephone.sol": "AttackTelephone"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AttackTelephone.sol": {
+			"keccak256": "0x0625203c62589204795ced71e329d99e3a5025dbf1fbbed8f7e9e3506ef04495",
+			"urls": [
+				"bzz-raw://d82959b8bea7e9dcb6663be622bcf31dd099ab804b58a585a3acd5576afc8235",
+				"dweb:/ipfs/QmS68QGqQv7rXGxWWdtbJH7ye13Y4WwY1TGjfXQtUi65Mf"
+			]
+		},
+		"contracts/Telephone.sol": {
+			"keccak256": "0x20453d134f50a8740d4755528d00790629b7f3fdce8b7f77653240fd26a8d99e",
+			"urls": [
+				"bzz-raw://7bd226ae9cbf4fa965b6b728bcf1666e14ffea6e0fa8ae5ece7f4de3c32106d0",
+				"dweb:/ipfs/QmNvP7KS2FNznVvDnTVu2HwQEa2r6QExisgxGjFvArrrhf"
+			]
+		}
+	},
+	"version": 1
+}

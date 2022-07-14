@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "becomeKing",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "king",
+				"outputs": [
+					{
+						"internalType": "contract King",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BeKing.sol": "BeKing"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BeKing.sol": {
+			"keccak256": "0x9cdf43fa32c1373c9286c23a7d6bd81f25725667eb848912b58c018cae696868",
+			"urls": [
+				"bzz-raw://1a97925ada06660c12d5ca8eadaeaea8fefb3703f14eb07d2066ce490a4882b7",
+				"dweb:/ipfs/QmPnNsebRYmpxuDDTyyoiQV9zQ7vZbvt9FqoyU71rXi8F8"
+			]
+		},
+		"contracts/King.sol": {
+			"keccak256": "0x5344fbf4b88fbd6ac0c08470267fe96d231a40ba9768a00ab07f0fb2e2b1b36a",
+			"urls": [
+				"bzz-raw://b8ae215af7b90501ead26d7938569ca7d500f7c7ab4aeb84d4abf971aeb6e513",
+				"dweb:/ipfs/Qmd3JnznYd8p8vUfBNFCrcgDoJBHDV3JbM2DU4mFvQJ5CV"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "collect",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "a",
+						"type": "address"
+					}
+				],
+				"name": "destruct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Destructing.sol": "Destructing"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Destructing.sol": {
+			"keccak256": "0x4ec869fbe0e27187bbc3251ea1e69e48f19497b48d4cea70d7a2ae48c9dae1bb",
+			"urls": [
+				"bzz-raw://4f5ec23fde0233a17696e67c9f5a512a82ff6795bf27a9ee9143500a15468a33",
+				"dweb:/ipfs/QmPHRG5gY5bvuAfq66y5MuUtzFUJzrAuhFdD3NXUxFuCQ2"
+			]
+		}
+	},
+	"version": 1
+}

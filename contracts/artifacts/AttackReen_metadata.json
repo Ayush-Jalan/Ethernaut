@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "amount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "contribute",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "r",
+				"outputs": [
+					{
+						"internalType": "contract Reentrance",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AttackReen.sol": "AttackReen"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AttackReen.sol": {
+			"keccak256": "0x43f8344814d4fb4f0b0758fd1d0f3fe82b8534070c0aa17ed58de5a32026821f",
+			"urls": [
+				"bzz-raw://a28e75db196597c7de329ad97ad41f241e8e0baa79f8cd1d7715e941f6a11139",
+				"dweb:/ipfs/Qmf6jXMzPtHFuhDs1K19bUdC6X3y73hFiXRHLYfWHBpFc2"
+			]
+		},
+		"contracts/Reentrance.sol": {
+			"keccak256": "0x42df610a7e72fcb18477c47526eff4e80306718231582dccb9fb7d40bc1e73a3",
+			"urls": [
+				"bzz-raw://22628ea2c4c9510d98b7e5ccce66d67250e8e557015814d1f95af9c4b120739c",
+				"dweb:/ipfs/QmPkLo2bsz7pTKM4HUF1S8DbDC9gThg3YuA9qfRUevsCbb"
+			]
+		},
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/math/SafeMath.sol": {
+			"keccak256": "0xcc78a17dd88fa5a2edc60c8489e2f405c0913b377216a5b26b35656b2d0dab52",
+			"urls": [
+				"bzz-raw://526dc85e1f9b9b45830e202568d267d93dde7a4fcccf4ad7798dadcd92304d3c",
+				"dweb:/ipfs/QmaoXMB972J3cSDLtBq3xBo4jLwqD2uzXTwujtSPqkYVhR"
+			]
+		}
+	},
+	"version": 1
+}

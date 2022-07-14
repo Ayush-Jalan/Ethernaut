@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "attemptHack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "el",
+				"outputs": [
+					{
+						"internalType": "contract Elevator",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "flipped",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "isLastFloor",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Build.sol": "Build"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Build.sol": {
+			"keccak256": "0xe010c432c83a5206dd0f9454ec67c8854bbfb711ee2c9c557eb7c19bd3667b13",
+			"urls": [
+				"bzz-raw://8c9327b354806ca66d06ea82c93b4d82bf83489fe994dec07a25cece40d259a7",
+				"dweb:/ipfs/QmXYkWUgNDjwWhtqHhdF8LbubJ3d6rwDikNdESzNaLL4Mw"
+			]
+		},
+		"contracts/Elevator.sol": {
+			"keccak256": "0x4418b93ebe42b109d8f5a4de40acf2fe9a42b2f6edfb75891a57123d28489744",
+			"urls": [
+				"bzz-raw://e4ca99fa16e4ec358eeb2d4eecedd65dd7e1c7ad287d407176a51de2aa99763a",
+				"dweb:/ipfs/QmU9BnXsGyv2T4L6nGEvFVFDaJ47U93zNGXEqU4TCb4qu5"
+			]
+		}
+	},
+	"version": 1
+}
